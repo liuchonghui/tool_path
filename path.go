@@ -11,7 +11,7 @@ func main()  {
 	Log("start path")
 	args := os.Args
 	if args == nil || len(args) < 2 || len(args) > 3 {
-		Usage()
+		// Usage()
 		os.Exit(0)
 	}
 	input := args[1]
